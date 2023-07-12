@@ -1,1 +1,42 @@
-/* место для вашего кода */
+.address {
+  font-style: normal;
+}
+.address p {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.address p:first-child {
+  border-bottom: 1px solid #000;
+}
+.address p:nth-child(2) {
+  border-bottom: 1px solid #000;
+}
+
+.header {
+  font-family: "Raleway";
+  font-size: 18px;
+  padding: 92px 49px 92px 51px;
+  display: flex;
+  align-items: center;
+}
+.header__links-list {
+  display: flex;
+  gap: 25px;
+}
+.header__links-list-item {
+  list-style: circle;
+}
+.header__links-list-item_no-bullit {
+  list-style: none;
+}
+.header__link_active {
+  text-decoration: none;
+}
+.header__logo {
+  margin: 0 auto;
+  width: 148px;
+  height: 105px;
+}
+.header__logo-image {
+  height: auto;
+}
