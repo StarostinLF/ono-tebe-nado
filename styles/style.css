@@ -18,11 +18,15 @@
   font-weight: normal;
   padding: 92px 49px 92px 51px;
   display: flex;
+  justify-content: center;
   align-items: center;
+}
+.header__menu {
+  float: left;
 }
 .header__links-list {
   display: flex;
-  gap: 25px;
+  gap: 32px;
 }
 .header__links-list-item {
   list-style: circle;
@@ -34,13 +38,17 @@
   text-decoration: none;
 }
 .header__logo {
-  margin: 0 auto;
+  margin: 0 auto 0 209px;
   width: 148px;
-  height: 105px;
+  height: 109px;
 }
 .header__logo-image {
-  height: auto;
+  height: inherit;
 }
+.header__address {
+  float: right;
+}
+
 .cover {
   height: 757px;
   background: url("../images/cover.jpg");
@@ -48,7 +56,9 @@
   color: #fff;
 }
 .cover__title {
-  padding: 165px 50px 147px 50px;
+  display: flex;
+  flex-direction: column;
+  padding: 165px 50px 145px 50px;
   font-family: "Raleway";
   font-size: 100px;
   font-weight: bold;
@@ -63,7 +73,7 @@
   font-family: "Raleway";
   font-size: 22px;
   font-weight: normal;
-  word-spacing: 28px;
+  word-spacing: 17px;
   text-transform: uppercase;
   margin-right: auto;
 }
@@ -74,15 +84,18 @@
 }
 
 .aligned-text_center {
+  width: 1280px;
+  margin: 10px 0 20px 0;
   text-align: center;
 }
-
 .aligned-text_right {
   text-align: right;
 }
 
 .no-letter-spacing {
+  height: 100px;
   letter-spacing: 30px;
+  margin-right: -30px;
 }
 .no-letter-spacing::first-letter {
   letter-spacing: 0;
@@ -90,7 +103,11 @@
 }
 
 .letter-spacing-extended {
+  height: 100px;
   letter-spacing: 30px;
+}
+.letter-spacing-extended:first-child {
+  height: 115px;
 }
 .letter-spacing-extended span {
   letter-spacing: 0;
