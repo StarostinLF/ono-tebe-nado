@@ -5,7 +5,6 @@
   line-height: 24.3px;
 }
 .address a {
-  width: -moz-fit-content;
   width: fit-content;
   text-decoration: none;
 }
