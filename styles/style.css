@@ -1,10 +1,8 @@
 .address {
-  margin-top: 6px;
-  margin-right: 3px;
   display: flex;
-  gap: 2.5px;
   flex-direction: column;
   font-style: normal;
+  line-height: 24.3px;
 }
 .address a {
   width: -moz-fit-content;
@@ -17,14 +15,11 @@
 .address a:nth-child(2) {
   border-bottom: 1px solid #000;
 }
-.address p {
-  line-height: 24.3px;
-}
 
 .header {
   font-family: "Raleway";
   font-size: 18px;
-  font-weight: normal;
+  font-weight: 400;
   padding: 92px 49px 96px 51px;
   display: flex;
   justify-content: center;
@@ -55,6 +50,10 @@
 }
 .header__logo-image {
   height: inherit;
+}
+.header__address {
+  margin-top: 6px;
+  margin-right: 3px;
 }
 
 .cover {
@@ -145,7 +144,8 @@
   font-family: "Raleway";
   font-size: 40px;
   font-weight: 700;
-  margin-bottom: 27px;
+  margin: 0 0 27px 40px;
+  text-transform: uppercase;
 }
 .lots__card-list {
   display: flex;
@@ -159,6 +159,8 @@
 }
 .lots__look-more-link {
   text-decoration: none;
+  text-transform: lowercase;
+  margin-left: 40px;
   font-family: "Raleway";
   font-size: 20px;
   font-weight: 400;
@@ -195,7 +197,68 @@
   text-decoration: underline;
 }
 .card__text {
+  line-height: 120%;
   font-family: "Raleway";
   font-size: 20px;
   font-weight: 400;
+}
+
+.about {
+  display: flex;
+  gap: 25px;
+  padding: 0 50px 182px 50px;
+}
+.about__column:last-child {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  margin-top: 101px;
+}
+.about__logo {
+  background-color: #000;
+  border-radius: 50%;
+  margin: 0 95px;
+  padding: 63px 46px;
+}
+.about__logo-image {
+  width: 148px;
+}
+.about__title {
+  text-transform: uppercase;
+  font-family: "Raleway";
+  font-size: 40px;
+  font-weight: 700;
+}
+.about__text {
+  font-family: "Raleway";
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.footer {
+  font-family: "Raleway";
+  font-size: 18px;
+  font-weight: 400;
+  padding: 0 50px 90px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__menu {
+  display: flex;
+  flex-direction: column;
+}
+.footer__menu-list {
+  list-style: none;
+  text-align: center;
+}
+.footer__menu-link_active {
+  text-decoration: none;
+}
+.footer__social-list {
+  display: flex;
+  gap: 48px;
+  list-style: none;
+}
+.footer__social-icon {
+  height: 48px;
 }
