@@ -111,7 +111,8 @@
 }
 
 .aligned-text_center {
-  width: 1310px;
+  width: 100%;
+  max-width: 1310px;
   text-align: center;
 }
 
@@ -259,16 +260,16 @@
   text-transform: uppercase;
   font-size: 40px;
   font-weight: 700;
-  margin-bottom: 100px;
 }
 
 .about__text {
   font-size: 20px;
   font-weight: 400;
+  margin-top: 100px;
 }
 
-.about__text:last-child {
-  margin-top: 25px;
+.about__text p:first-child {
+  margin-bottom: 25px;
 }
 
 /* Footer */
