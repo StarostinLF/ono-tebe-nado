@@ -10,4 +10,4 @@
 - [readme-файл](https://github.com/itsUltraWolf/ono-tebe-nado/blob/main/README.md);
 - html-страница сайта ([index.html](https://github.com/itsUltraWolf/ono-tebe-nado/blob/main/index.html)).
 
-https://github.com/itsUltraWolf/ono-tebe-nado
+https://github.com/StarostinLF/ono-tebe-nado
